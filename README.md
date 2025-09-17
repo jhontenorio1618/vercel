@@ -1,3 +1,8 @@
+# Brief Description
+
+The project presents a personal bio website, where I present my accomplishments and experience. I used HTML/CSS/JS for development and Vercel for deployment. 
+---
+
 # Professional Bio Website
 
 This is a simple personal bio website built to practice the fundamentals of deploying a web application with Vercel. The site aims to deliver a professional overview of my background, skills, projects, and education. I have prior experience with Git and GitHub through personal projects and internships, but this was my first time using Vercel as a deployment platform. The process allowed me to gain confidence in pushing code to production and to better understand how deployment tools fit into the broader development lifecycle.
