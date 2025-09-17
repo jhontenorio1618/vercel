@@ -194,26 +194,15 @@ body.light .nav a:hover {
 }
 .muted{color:var(--muted)}
 
-@media (min-width: 780px){
-  .card:nth-child(1){grid-column: span 6}
-  .card:nth-child(2){grid-column: span 6}
-  .card:nth-child(3){grid-column: span 12}
+@media (max-width: 780px){
   /* Mobile nav */
-  
   .app-bar__inner {
     flex-direction: column;
     align-items: flex-start;
   }
-  .app-bar__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;   /* <--- allows wrapping only when needed */
-}
-
 
   .nav {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 100%;
     gap: 0.5rem;
@@ -222,6 +211,7 @@ body.light .nav a:hover {
 
   .nav a,
   .nav button {
+    display: none; 
     width: 100%;
     text-align: left;
     padding: 0.6rem 1rem;
@@ -231,10 +221,12 @@ body.light .nav a:hover {
   .btn {
     justify-content: flex-start;
   }
-
 }
+
+
+
 @media (min-width: 1100px){
-  .card:nth-child(1){grid-column: span 5}
-  .card:nth-child(2){grid-column: span 7}
-  .card:nth-child(3){grid-column: span 12}
+    .card:nth-child(1){grid-column: span 5}
+    .card:nth-child(2){grid-column: span 7}
+    .card:nth-child(3){grid-column: span 12}
 }
