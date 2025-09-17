@@ -1,6 +1,7 @@
 # Brief Description
 
 The project presents a personal bio website, where I present my accomplishments and experience. I used HTML/CSS/JS for development and Vercel for deployment. 
+
 ---
 
 # Professional Bio Website
