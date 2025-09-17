@@ -19,4 +19,4 @@ Overall, this project reinforced the value of hands-on practice in building conf
 1. Clone the repository:
    - git clone https://github.com/jhontenorio1618/vercel.git
    - cd vercel. 
-   - Open with Chrome : index.html 
+   - Open with Browser of Preference > index.html 
